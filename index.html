@@ -1,71 +1,72 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>i-Reporter</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A brief description of the page content">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Your Name">
+    <title>Conmos i-reporter</title>
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include a favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
-<body class="bg-white font-sans">
-    <div class="container mx-auto p-4">
-        <div class="flex items-center mb-4">
-            <img src="https://placehold.co/50x50" alt="i-Reporter logo" class="mr-2">
-            <h1 class="text-4xl font-bold">i-Reporter</h1>
-        </div>
-        <div class="flex">
-            <div class="bg-orange-500 p-4 rounded-lg text-white w-1/3">
-                <h2 class="text-xl font-bold mb-2">Input and send from onsite</h2>
-                <img src="https://placehold.co/200x400" alt="Hand holding a smartphone with i-Reporter app" class="mb-4">
-                <div class="flex justify-around">
-                    <div class="text-center">
-                        <img src="https://placehold.co/50x50" alt="iPad icon" class="mb-2">
-                        <p>iPad</p>
-                    </div>
-                    <div class="text-center">
-                        <img src="https://placehold.co/50x50" alt="iPhone icon" class="mb-2">
-                        <p>iPhone</p>
-                    </div>
-                    <div class="text-center">
-                        <img src="https://placehold.co/50x50" alt="Windows Tablet icon" class="mb-2">
-                        <p>Windows Tablet</p>
-                    </div>
-                </div>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h1>Welcome to Conmos i-reporter</h1>
+            <p>Your one-stop solution for advanced reporting.</p>
+            <a href="#features" class="btn">Learn More</a>
+        </section>
+        
+        <section id="features">
+            <h2>Features</h2>
+            <div class="feature-item">
+                <h3>Feature 1</h3>
+                <p>Description of Feature 1.</p>
             </div>
-            <div class="flex-1 flex flex-col items-center justify-center">
-                <div class="flex items-center mb-4">
-                    <img src="https://placehold.co/50x50" alt="Arrow pointing to server" class="mr-2">
-                    <div class="bg-teal-500 p-4 rounded-lg text-white text-center">
-                        <h2 class="text-xl font-bold mb-2">Saved on server</h2>
-                        <img src="https://placehold.co/100x100" alt="Server icon" class="mb-2">
-                        <p>Record database</p>
-                    </div>
-                    <img src="https://placehold.co/50x50" alt="Arrow pointing to company system" class="ml-2">
-                </div>
-                <div class="flex items-center">
-                    <div class="bg-lime-500 p-4 rounded-lg text-white text-center">
-                        <h2 class="text-xl font-bold mb-2">Linked with company system</h2>
-                        <img src="https://placehold.co/100x100" alt="Company system icon" class="mb-2">
-                        <p>Company system</p>
-                    </div>
-                </div>
+            <div class="feature-item">
+                <h3>Feature 2</h3>
+                <p>Description of Feature 2.</p>
             </div>
-        </div>
-        <div class="flex justify-around mt-4">
-            <div class="text-center">
-                <h3 class="text-lg font-bold mb-2">Approval, viewing</h3>
-                <img src="https://placehold.co/50x50" alt="Person viewing on computer" class="mb-2">
-            </div>
-            <div class="text-center">
-                <h3 class="text-lg font-bold mb-2">Automatic reports</h3>
-                <img src="https://placehold.co/50x50" alt="Excel and PDF icons" class="mb-2">
-            </div>
-            <div class="text-center">
-                <h3 class="text-lg font-bold mb-2">Printing, sharing</h3>
-                <img src="https://placehold.co/50x50" alt="Person printing or sharing" class="mb-2">
-            </div>
-            <div class="text-center">
-                <h3 class="text-lg font-bold mb-2">Analysis, statistics</h3>
-                <img src="https://placehold.co/50x50" alt="Person analyzing statistics" class="mb-2">
-            </div>
-        </div>
-    </div>
+            <!-- Add more features as needed -->
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Conmos i-reporter. All rights reserved.</p>
+    </footer>
+    
+    <!-- JavaScript Files -->
+    <script src="scripts.js"></script>
 </body>
 </html>
+
