@@ -1,0 +1,140 @@
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.header img {
+    width: 50px;
+    height: 50px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-left: 10px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    background-color: #FF6600;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section img {
+    width: 100px;
+    height: 100px;
+}
+
+.section .text {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.section .text h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.section .text p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.section .text img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+}
+
+.database {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    background-color: #009999;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.database img {
+    width: 100px;
+    height: 100px;
+}
+
+.database .text {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.database .text h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.database .text p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.database .text img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    background-color: #99CC00;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.footer img {
+    width: 100px;
+    height: 100px;
+}
+
+.footer .text {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.footer .text h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer .text p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.footer .text img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+```
